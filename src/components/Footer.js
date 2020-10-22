@@ -14,14 +14,17 @@ const Footer = () => {
           You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
-          <form onSubmit={() => alert('To be implemented.')}>
+          <form>
             <input
               className='footer-input'
               name='email'
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline' route='/'>
+            <Button
+              buttonStyle='btn--outline'
+              route='/'
+              onClick={() => alert('To be implemented.')}>
               Subscribe
             </Button>
           </form>
