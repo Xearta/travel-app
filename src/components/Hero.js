@@ -14,7 +14,7 @@ const Hero = () => {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          route='/sign-up'>
+          route='/booking'>
           GET STARTED
         </Button>
         <Button
